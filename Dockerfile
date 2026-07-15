@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/*.jar app.jar
 
 # Expose Spring Boot port
-EXPOSE 8087
+EXPOSE 8091
 
 # Run the application
 ENTRYPOINT ["java","-jar","app.jar"]
