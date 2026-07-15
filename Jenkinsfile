@@ -34,7 +34,7 @@ pipeline {
 
                 docker run -d \
                 --name ecommerce-app \
-                -p 8091:8091 \
+                -p 8090:8090 \
                 ecommerce-app
                 '''
             }
